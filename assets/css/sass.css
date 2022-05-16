@@ -5,13 +5,43 @@
           box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .full {
   background-color: #047eb3;
   height: 150px;
 }
 
 .full .row {
-  height: 50px;
-  background-color: white;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.full .row ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.full .row ul li {
+  margin: auto 15px;
+  list-style: none;
+  color: white;
+}
+
+.full .row ul li a {
+  text-decoration: none;
+  color: white;
 }
 /*# sourceMappingURL=sass.css.map */

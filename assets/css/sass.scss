@@ -3,11 +3,29 @@
     margin: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
 .full{
     background-color: rgb(4,126,179);
     height: 150px;
     .row{
-        height: 50px;
-        background-color: white;
+        justify-content: space-between;
+        align-items: center;
+     ul{
+         display: flex;
+         flex-direction: row;
+         li{
+             margin: auto 15px;
+             list-style: none;
+             color: white;
+             a{
+                 text-decoration: none;
+                 color: white;
+             }
+         }
+     }
     }
 }
+
