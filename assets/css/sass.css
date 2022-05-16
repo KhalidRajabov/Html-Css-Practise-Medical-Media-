@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.full {
+  background-color: #047eb3;
+  height: 150px;
+}
+
+.full .row {
+  height: 50px;
+  background-color: white;
+}
+/*# sourceMappingURL=sass.css.map */
