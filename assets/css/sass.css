@@ -15,7 +15,15 @@ a {
   height: 150px;
 }
 
-.full .row {
+.full .my-row {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -24,7 +32,7 @@ a {
           align-items: center;
 }
 
-.full .row ul {
+.full .my-row ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,14 +42,75 @@ a {
           flex-direction: row;
 }
 
-.full .row ul li {
+.full .my-row ul li {
   margin: auto 15px;
   list-style: none;
   color: white;
 }
 
-.full .row ul li a {
+.full .my-row ul li a {
   text-decoration: none;
   color: white;
+}
+
+.full .my-row .center-nav {
+  font-size: 24px;
+}
+
+.full .my-row .center-nav li {
+  padding: 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.full .my-row .center-nav .live {
+  margin-top: -10px;
+}
+
+.full .my-row .nav-input .input {
+  position: relative;
+}
+
+.full .my-row .nav-input .input .search {
+  position: absolute;
+  color: #cfd3d9;
+  top: 35%;
+  left: 5%;
+  font-size: 110%;
+}
+
+.full .my-row .nav-input .input input {
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  padding: 5% 5% 5%  20%;
+}
+
+.full .my-row .nav-input .input input:focus {
+  border: none;
+}
+
+.full .my-row .nav-input .input input .my-input::-webkit-input-placeholder {
+  color: red;
+}
+
+.full .my-row .nav-input .input input .my-input:-ms-input-placeholder {
+  color: red;
+}
+
+.full .my-row .nav-input .input input .my-input::-ms-input-placeholder {
+  color: red;
+}
+
+.full .my-row .nav-input .input input .my-input::placeholder {
+  color: red;
 }
 /*# sourceMappingURL=sass.css.map */
