@@ -1,35 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/sass.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>MedicalMedia</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="./assets/css/main.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<title>Medical</title>
 </head>
 <body>
-    
-    <div class="container-fluid full d-flex align-items-center justify-content-center">
-        <div class="my-row ">
-            <a href="" class="my-logo">
-                <img src="assets/images/logo.webp" alt="">
-            </a>
 
-            <ul class="center-nav">
-                <li class="center-list"><a href=""><img src="assets/images/vebinar.svg" alt=""> Vebinarlar</a></li>
-                <li class="center-list "><a href=""><img class="live" src="assets/images/tv.svg" alt=""> Canlı yayım</a></li>
-                <li class="center-list"><a href=""><img src="assets/images/mednews.svg" alt=""> MedNews</a></li>
-            </ul>
-
-            <ul class="nav-input">
-                <li class="input"><i class="fa-solid search fa-magnifying-glass"></i><input class="my-input" type="text" placeholder="Axtarış et"></li>
-                <li class="login"><a href="">Daxil ol</a></li>
-            </ul>
+    <nav class="container-fluid px-5 py-2 ">
+        <div class="row mt-3">
+            <div class="container d-flex ">
+                <div class="logo col-lg-2">
+                    <img width="100" src="https://api.medicalmedia.az/uploads/d43420dc-3142-40dd-a8d5-4adfb1fbd928.webp" alt="">
+                </div>
+                <div class="navlinks col-lg-7">
+                    <ul class="list-unstyled d-flex  justify-content-center  ">
+                        <li >
+                             <a class="nav-link text-white fs-4 " href="">
+                                 <img src="https://medicalmedia.az/assets/vebinar.svg
+                                " alt="">
+                                Vebinarlar</a></li>
+                        <li >
+                             <a class="nav-link text-white fs-4 " href="">
+                                <img src="https://medicalmedia.az/assets/tv.svg
+                                " alt="">
+                                Canli yayim</a>
+                        </l i>
+                        <li >
+                            
+                            <a class="nav-link text-white fs-4 " href="">
+                                <img src="	https://medicalmedia.az/assets/mednews.svg
+                            " alt="">
+                            MedNews</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="forms col-lg-3 d-flex justify-content-between  align-items-center">
+                    <div class="form-a col-9 d-flex  align-items-center">
+                        <i class="m-lg-2 fa-solid fa-magnifying-glass "></i>
+                        <input type="search" name="" id="" placeholder="Axtaris et">
+                    </div>
+                    <div class="log col-3">
+                        <span class="text-white">Daxil ol</span>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+        <div class="row">
+            <div class="container col-lg-1 border-danger">
+                <div class="col-lg-10 col-md-7 col-sm-1">
+                    <ul class="list-unstyled d-flex col-md-7 col-sm-1">
+                        <li><a class="nav-link text-white fs-6" href="">Xəbərlər</a></li>
+                        <li><a class="nav-link text-white fs-6" href="">Layihələr</a></li>
+                        <li><a class="nav-link text-white fs-6" href="">Kitablar</a></li>
+                        <li><a class="nav-link text-white fs-6" href="">Arxivlər</a></li>
+                        <li><a class="nav-link text-white fs-6" href="">Məqalələr</a></li>
+                        <li><a class="nav-link text-white fs-6" href="">Vebinarlar</a></li>
+                        <li><a class="nav-link text-white fs-6" href="">Canlı yayım</a></li>
+                        <li><a class="nav-link text-white fs-6" href="">Forum</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <section id="projects">
+        <div class="container my-5">
+            <div class="container-fluid">
+                <div class="col  layihe rounded-3">
+                    <h1 class="text-white fs-5">Lahiyələr</h1>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="project-card my-4">
+                                    <div class="project-img">
+                                        <img src="./assets/img/1.png" alt="">
+                                    </div>
+                                    <div class="project-body p-3">
+                                        <h3>1 dəqiqə 1 həyat</h3>
+                                        <p>Həftə içi hər gün</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="project-card my-4">
+                                    <div class="project-img">
+                                        <img src="./assets/img/2.png" alt="">
+                                    </div>
+                                    <div class="project-body p-3">
+                                        <h3>Qarabağ Azərbaycandır!</h3>
+                                        <p>videokataloq</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6">
+                                <div class="project-card my-4">
+                                    <div class="project-img">
+                                        <img src="./assets/img/3.png" alt="">
+                                    </div>
+                                    <div class="project-body p-3">
+                                        <h3>Salam Həyat</h3>
+                                        <p>Yeni Layihə</p>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="container-fluid  text-white">
+        <div class="container py-3">
+            <div class="row d-flex justify-content-around py-5">
+                <div class="col-lg-3">
+                    <img width="100" src="https://api.medicalmedia.az/uploads/d43420dc-3142-40dd-a8d5-4adfb1fbd928.webp" alt="">
+                    <p class="my-5 fs-6">© 2020 Medical Media Bütün hüquqlar qorunur.</p>
+                    <p class="fs-5">Yeniliklərdən xəbərdar ol</p>
+                </div>
+                <div class="col-lg-2 d-flex flex-column ">
+                    <a class="fs-5 my-0" href="">Səhifələr</a>
+                    <a href="">Layihələr</a>
+                    <a href="">MedNews</a>
+                    <a href="">Elmi məqalələr</a>
+                    <a href="">Kitablar</a>
+                    <a href="">Vebinar</a>
+                </div>
+                <div class="col-lg-2 d-flex flex-column">
+                    <a class="fs-5 my-0 href="">İnformasiya</a>
+                    <a href="">Konfidensiallıq siyasəti</a>
+                    <a href="">Ödəmə şərtləri</a>
+                    <a href="">Geri qaytarma siyasəti</a>
+                    <a href="">Müştəri xidmətləri</a>
+                </div>
+                <div class="col-lg-2 d-flex flex-column">
+                    <a class="fs-5 my-0 href="">Əlaqə</a>
+                    <a href="">Mərdanov qardaşları, 127</a>
+                    <a href="">info@medicalmedia.az</a>
+                    <a href="">+994 55 455 68 68</a>
+                    <a href="">+994125964131</a>
+                </div>
+            </div>
+
+            <div class="row px-5 d-flex justify-content-between my-3">
+                <div class="col-4">
+                    <div class="form-c d-flex justify-content-between">
+                        <input type="email" name="" id="" placeholder="E-Poct unvani">
+                        <div class="send d-flex justify-content-center align-items-center">
+                            <span> <a href="">></a> </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 d-flex justify-content-around social-links align-items-end">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
